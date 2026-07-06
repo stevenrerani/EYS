@@ -1,0 +1,168 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cloud.affinityinsurance.aon.co.za/eys_css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    
+    <title style="color:#5eb9e4">Earn Your Stripes</title>
+    <style>
+        #regForm .help-block{display: none;color:firebrick}
+    </style>
+</head>
+<body>
+    <section id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/adc4028b-379e-4026-84df-a74d9143b5f5.jpg" width="110" height="63" alt="Aon"/></div>
+                    <div class="col-sm-9 d-flex justify-content-end">
+                        
+                    </div>
+                </div>  
+            </div>
+        </section>
+        
+        <section id="introform">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 style="font-color:#eb0017" class="whttext">Earn Your Stripes</h1><br>
+                            <p class="wlctext introtext">Unlock growth by delivering impact and value for your clients. Your actions today can drive stronger outcomes.<br><br>This means submitting your Investec Homeowners opportunity to be converted to a combine policy.<br><br><strong style="color:#eb0017">Step One:</strong>Enter your details and <br>client details using the form.<br><strong style="color:#eb0017">Step Two:</strong>Click Submit.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="formwrapper">
+                                <form id="regForm" name="regForm" class="hmform" action="https://cloud.affinityinsurance.aon.co.za/EYS-process">
+                                    <p class="first_step home stonebd">Submit your opportunity today!</p>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="yourName" placeholder="Investec Service Consultant Name">
+                                        <span class="help-block">
+                                            Please provide value
+                                        </span>                                        
+                                    </div>
+                                    <p><strong>Prospect Details</strong></p>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                        <span class="help-block">
+                                            Please provide value
+                                        </span>                                          
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                        <span class="help-block">
+                                            Please provide value
+                                        </span>                                          
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="cellNumber" placeholder="Cell Number">
+                                        <span class="help-block ">
+                                            Please provide value
+                                        </span>
+                                        <span class="help-block ">
+                                            Please provide value in correct format
+                                        </span>                                        
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="emailAddress" placeholder="Email">
+                                        <span class="help-block " ng-show="regForm.phone.$invalid && !regForm.phone.$pristine && regForm.phone.$error.required">
+                                            Please provide value
+                                        </span>
+                                        <span class="help-block " ng-show="regForm.phone.$invalid && !regForm.phone.$pristine && regForm.phone.$error.pattern">
+                                            Please provide value in correct format
+                                        </span>                                        
+                                    </div>
+                                    
+                                    <select id="preferedInsurance" class="form-control mb-4" aria-label="Preferred insurance option" placeholder="Email">
+                                        <option selected>Please select your preferred insurance option</option>
+                                        <option value="Motor-Homeowners"> Investec Homeowners </option>
+                                        <option value="Motor-Only">Motor Only</option>
+                                    </select>
+                                    <span class="help-block ">
+                                        What cover does the client currently hold?
+                                    </span>
+                                    
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="accept" value="" checked="checked">
+                                        <span class="help-block">Please provide value</span>
+                                        <label class="form-check-label" for="Accept">
+                                            By clicking "Apply Now" you are agreeing to our <a href="https://one.aon.net/sites/intranet-southafrica/en-us/Documents/Homepage/EYS%20Terms%20and%20Conditions%20v1.pdf">Terms & Conditions</a>. Terms and conditions apply. Aon South Africa (Pty) Ltd is an Authorised Financial Services Provider (FSP #20555). </label>
+                                        </div>
+                                <!--Submit Messages-->
+                                <div class="alert alert-success" id="div-success">
+                                    <strong>Thank you.</strong><br />
+                                    Your information has been successfully submitted.
+                                </div>
+                                <div class="alert alert-warning" id="div-error">
+                                    <strong>Oops - something went wrong!</strong><br />
+                                    Please try to resubmit the form or email us at <a href="mailto:referrals@aon.co.za">referrals@aon.co.za</a>
+                                </div>
+                                        <button id="regBut" type="submit" class="btn btn-danger btn-apply">Submit</button>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="detail">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                          <h2 class="redtext" style="font-size: 30px">Earn your stripes, own your story — this is where ambition meets action.</h2>
+                            <h2 class="redtext" style="font-size: 20px">Unlock growth by delivering impact and value to the Investec Home Owners and Motor Financed clients. Your actions today can drive stronger outcomes<br><br>To do this, we want you to put your best foot forward every day and Earn Your Stripes - rewarding you for identifying opportunities, driving value, and turning client conversations into real outcomes.</h2>
+                            
+                       
+                            <img class="center" src="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/6a7dcbc7-044c-4eb7-b3e2-52af3ecb5e86.jpg" height="230" width="1069"><br>
+                            <br>
+                          <p>Be sure to keep an eye on our monthly leaderboard to see who is leading.</p>
+                          <p>Click <a href="https://one.aon.net/sites/intranet-southafrica/en-us/Documents/Homepage/EYS%20Terms%20and%20Conditions%20v1.pdf">here</a> to view the Earn Your Stripes terms and conditions
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6"><img src="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/2ad39958-1788-40a7-b914-f400bf1959df.png" width="110" height="63" alt=""/></div>
+                            
+                        </div>
+                    </div>
+                    
+                </section>
+                <section id="legal">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 whttext">
+                                <a href="https://aondev.s1.umbraco.io/legal/legal-documents">Legal Documents</a> | <a href="https://aondev.s1.umbraco.io/legal/aon-legal-notice">Legal Notice</a> | <a href="https://aondev.s1.umbraco.io/legal/cookies-notice">Cookies</a> | <a href="https://aondev.s1.umbraco.io/legal/disclaimer">Disclaimer</a> | <a href="https://aondev.s1.umbraco.io/docs/TOBA_Issue_9_Final_January_2020.pdf">Terms of Business</a> | <a href="https://aondev.s1.umbraco.io/legal/privacy-statement">Privacy Policy</a> | <a href="https://aondev.s1.umbraco.io/legal/privacy-statement" target="_blank">Privacy Notice</a>
+                            </div>
+                            <div class="col-md-5 whttext"  style="text-align: right;">Terms and conditions apply. <br>
+                                Aon South Africa (Pty) Ltd is an Authorised Financial Services Provider (FSP #20555).</div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    
+                    
+                    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.32/angular.min.js"></script>
+                    <script src="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/jquery-1.11.3.min.js"></script>    
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                    <script src="https://cloud.affinityinsurance.aon.co.za/EYS-js"></script>
+                    
+                    
+                </body>
+                </html>
+                

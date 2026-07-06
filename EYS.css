@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* FONTS */
+/* Prelo */
+@font-face {
+    font-family: 'Arial';
+    src: url('prelosemi.woff2') format('woff2'),
+        url('prelosemi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('prelomed.woff2') format('woff2'),
+        url('prelomed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('prelolight.woff2') format('woff2'),
+        url('prelolight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Stone Sans */
+@font-face {
+    font-family: 'Arial';
+    src: url('StoneSansIIITCPro-Bk.eot') format('embedded-opentype'),
+        url('StoneSansIIITCPro-Bk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('StoneSansIIITCPro-Md.eot') format('embedded-opentype'),
+        url('StoneSansIIITCPro-Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('StoneSansIIITCPro-SmBd.eot') format('embedded-opentype'),
+        url('StoneSansIIITCPro-SmBd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+ font-family: 'Arial' !important;
+ color: #7a7a7a;
+ font-size: 17px;
+}
+#topbar {
+ padding: 20px 0px;
+}
+.btn.btn-danger.btn-red {
+ color: #fff;
+ background-color: #5EB9E4;
+ border-radius: 5px;
+ border: 1px solid #fff;
+ line-height: 60px;
+ padding: 0px 20px;
+}
+.btn.btn-danger.btn-red:hover {
+ color: #5EB9E4;
+ background-color: #fff;
+ border: 1px solid #5EB9E4;
+}
+.btn.btn-secondary.btn-grey {
+ color: #fff;
+ background-color: #4D4F53;
+ border-radius: 5px;
+ border: 1px solid #fff;
+ line-height: 60px;
+ padding: 0px 20px;
+}
+.btn.btn-secondary.btn-grey:hover {
+ color: #5EB9E4;
+ background-color: #fff;
+ border-radius: 5px;
+ border: 1px solid #5EB9E4;
+}
+@media only screen and (max-width: 768px) {
+  .btn.btn-secondary.btn-grey, .btn.btn-danger.btn-red {
+    line-height: normal;
+ padding: 10px;
+  }
+}
+
+#introform{
+ background-image: url("https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/4e397d44-2ad7-4d26-8f15-59af3acef6e9.jpg");
+ background-repeat: no-repeat;
+  background-size: cover;
+ background-color: #ffffff;
+  background-blend-mode: multiply;
+}
+#introformbus {
+ background-image: url("../images/zebra-idea2.jpg");
+ background-repeat: no-repeat;
+  background-size: cover;
+ background-color: #ffffff;
+  background-blend-mode: multiply;
+}
+.overlay {
+ background-color: rgba(255,255,255,0.85);
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Arial' !important;
+}
+h1 {
+ font-size: 1.8em;
+ font-weight: bold;
+}
+.introtext {
+ font-size: 1.5em;
+ color: #000000;
+}
+.stonemd {
+ font-family: 'Arial' !important;
+}
+.stonebd {
+ font-family: 'Arial' !important;
+}
+
+.whttext {
+ color: #eb0017;
+}
+.redtext {
+ color: #262836;
+}
+.formwrapper {
+ background-color: #fff;
+ border-radius: 5px;
+ padding: 10px 30px 20px 30px;
+}
+p.first_step.home {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5EB9E4;
+}
+.form-control::placeholder {
+ color: #6c757d;
+ opacity: 0.9;
+ font-family: 'Arial'  !important;
+ font-size: 14px;
+}
+.form-control {
+ background-color: #fafafa;
+ height: calc(2em + .75rem + 2px)
+}
+.form-check-label {
+ font-size: 12px;
+ color: #4D4F53;
+}
+.btn.btn-danger.btn-apply {
+ color: #fff;
+ background-color: #5EB9E4;
+ border-radius: 5px;
+ border: 1px solid #fff;
+ padding: 12px 18px;
+ margin: 25px 0px 20px 20px;
+}
+.btn.btn-danger.btn-apply:hover {
+ background-color: #4D4F53;
+}
+#detail {
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+#footer {
+ background-color: #000000;
+ padding: 30px;
+ 
+}
+.fa {
+ font-size: 25px;
+ background-color: #FFFFFF;
+ padding: 8px 16px;
+ border-radius: 50%;
+ color: #5EB9E4;
+ margin-right: 25px;
+}
+.fa:hover {
+
+ background-color: #54595F;
+ color: #fafafa;
+ cursor: pointer
+}
+#legal {
+ background-color: #5EB9E4;
+ padding: 20px 0px;
+ font-size: 12px;
+
+}
+#legal a {
+    color: #fff;
+    font-size: 12px;
+}
+.fa.fa-info-circle {
+ background: unset;
+ padding: 6px 6px;
+ text-align: center;
+ display: inline;
+ border-radius: 50%;
+ color: #acacac;
+ float: left;
+ right: 25px;
+ position: absolute;
+}
+.data-content {
+    color: #333333;
+    background-color: #909090
+}
+.popover {
+ background-color: #cbcbcb;
+ color: #333;
+ w
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
