@@ -144,7 +144,7 @@ p.first_step.home {
     font-size: 32px;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #5EB9E4;
+    color: #262836;
 }
 .form-control::placeholder {
  color: #6c757d;
@@ -155,6 +155,10 @@ p.first_step.home {
 .form-control {
  background-color: #fafafa;
  height: calc(2em + .75rem + 2px)
+}
+.form-control:focus {
+ border-color: #82939a;
+ box-shadow: 0 0 0 0.2rem rgba(130, 147, 154, 0.25);
 }
 .form-check-label {
  font-size: 12px;
